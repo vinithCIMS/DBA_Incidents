@@ -1,4 +1,4 @@
-### Corrective and Preventive Action (CAPA) Report
+### RCA & Corrective and Preventive Action (CAPA) Report
 
 ---
 
