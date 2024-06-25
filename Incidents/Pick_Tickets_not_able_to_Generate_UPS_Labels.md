@@ -44,7 +44,7 @@ Referenced support case for guidance on managing execution timeouts and autogrow
 From Ramanamurthy V:
 
 - Identified that the reported records were stuck on the same day (06/14/2024).
-- Noted that there are still 48 records stuck on the same day, but those Shipvias have been changed to LTL (Less than Truckload).
+- Noted that there are still 48 records stuck on the same day, but those Shipvias have been changed to LTL.
 
 ---
 
