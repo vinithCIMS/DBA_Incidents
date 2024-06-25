@@ -104,8 +104,14 @@ We will review and implement Microsoft's recommendations for autogrow settings, 
     
 - **Proactive Monitoring and Space Management:**
 Implement a SQL Server Agent job to regularly monitor the database file sizes and automatically increase the file size during off-peak hours if necessary.
-    
 
+ **3. Documentation and Training:**   
+     **Reference:**
+     
+https://techyaz.com/sql-server/performance-tuning/understanding-database-autogrowth-sql-server/
+
+https://www.red-gate.com/simple-talk/databases/sql-server/database-administration-sql-server/sql-server-database-growth-and-autogrowth-settings/
+            
 ### Conclusion
 
 The timeout issue was caused by a large autogrow increment, leading to delays in the autogrow operation and subsequent application timeout. By adjusting the autogrow settings, implementing proactive monitoring and space management, and conducting a thorough review of the storage performance, we have taken significant steps to prevent similar issues in the future. The DBA team is now better equipped with the knowledge and tools to manage database growth and performance proactively.
