@@ -18,7 +18,7 @@
 
 1. **Application Error Log:**
     
-    ```
+    ```JSON
     LOGGER Error: 0 : 6/14/2024 2:45:38 PM : System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired. The timeout period elapsed prior to completion of the operation or the server is not responding.
     A transaction that was started in a MARS batch is still active at the end of the batch. The transaction is rolled back.
     Operation cancelled by user.
@@ -27,7 +27,7 @@
     
 2. **SQL Server Error Log:**
     
-    ```
+    ```sql
     2024-06-14 14:45:38.51 spid65 Autogrow of file 'HA_cIMSDev_Blank_DATA' in database 'CIMSProd' was cancelled by user or timed out after 20592 milliseconds. Use ALTER DATABASE to set a smaller FILEGROWTH value for this file or to explicitly set a new file size.
     
     ```
